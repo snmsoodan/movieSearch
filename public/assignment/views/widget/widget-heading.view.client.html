@@ -1,0 +1,66 @@
+
+<nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <p class="navbar-text pull-left">
+                <a href="#/user/{{model.id}}/website/{{model.websiteId}}/page/{{model.pageId}}/widget" class="navbar-link">
+          <span class="glyphicon glyphicon-chevron-left">
+          </span>
+                </a>
+            </p>
+            <a class="navbar-brand">
+                Widget Edit
+            </a>
+            <p class="navbar-text pull-right">
+                <a ng-click="myForm.$valid && model.updateWidget(model.widget); submitted=true" class="navbar-link">
+          <span class="glyphicon glyphicon-ok">
+          </span>
+                </a>
+            </p>
+        </div>
+    </div>
+</nav>
+
+<div class="container">
+
+    <form name="myForm">
+        <div class="form-group">
+            <label for="widget-name">Name</label>
+            <input ng-model="model.widget.name"
+                   required
+                   ng-class="{ 'error-when' : submitted && myForm.name.$error.required }"
+                   name="name"
+                   type="text"
+                   class="form-control"
+                   id="widget-name">
+        </div>
+        <span ng-show="submitted && myForm.name.$error.required"
+              class="err">
+            *Required Field
+        </span>
+        <div class="form-group">
+            <label for="widget-text">Text</label>
+            <input ng-model="model.widget.text" type="text" class="form-control"
+                   id="widget-text"  placeholder="US Senate Reaches Compromise on Emergency">
+        </div>
+        <div class="form-group">
+            <label for="widget-size">Size</label>
+            <input ng-model="model.widget.size" type="text" class="form-control" id="widget-size"  placeholder="3">
+        </div>
+        </form>
+    <a ng-click="model.deleteWidget()" class="btn btn-danger btn-block" >Delete</a>
+
+
+
+</div>
+<nav class="navbar navbar-default navbar-fixed-bottom">
+    <div class="container-fluid">
+
+        <div class="col-xs-12 text-center">
+            <a href="#/user/{{model.id}}" role="button">
+                <span class="glyphicon glyphicon-user pull-right navbar-text"></span>
+
+            </a>
+        </div>
+    </div>
+</nav>

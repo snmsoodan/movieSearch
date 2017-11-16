@@ -1,0 +1,105 @@
+input.form-control {
+    margin-bottom: 5px;
+}
+
+body {
+    padding-top: 65px;
+}
+.navbar-default{
+    background-color: DodgerBlue;
+}
+.navbar-default .navbar-brand{
+    color: white;
+}
+.glyphicon-ok{
+    margin-right: 17px;
+    color: white;
+
+
+}
+.glyphicon-user:before{
+    color: white;
+    padding-right: 17px;
+}
+.glyphicon-plus{
+    margin-right: 17px;
+    color: white;
+    padding-right: 17px;
+}
+
+.navbar-header{
+    float:none;
+}
+.glyphicon-chevron-left{
+    color: white;
+    margin-left:7px;
+}
+.row{
+    color:dodgerblue;
+}
+.glyphicon-cog{
+    margin-right: 17px;
+    float:none;
+}
+.leftTitle{
+    float: none;
+}
+
+.jga-widget-tool{
+    position: absolute;
+    right: 15px;
+    background-color: white;
+    padding-left: 5px;
+    padding-bottom: 5px;
+    border-bottom-left-radius: 8px;
+    opacity: 0.7;
+}
+.jga-widget-padding{
+    padding-bottom:50px;
+}
+
+.list-group-item{
+    border:none;
+}
+
+.v-divider{
+    margin-left:5px;
+    margin-right:5px;
+    width:2px;
+    height:100%;
+    border-left:1px solid gray;
+}
+.glyphicon-plus{
+    color:white;
+}
+.colorWhite{
+    color:white;
+}
+.colorblack{
+    color:black;
+}
+
+.right-line{
+    height: 90vh;
+    border-right: 1px solid lightgrey;
+    margin-top: -20px;
+    padding-top: 10px;
+}
+
+
+.bottom-widget{
+    padding-bottom: 50px;
+}
+
+.youtube-widget {
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 */
+    height: 0;
+}
+.youtube-widget iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
