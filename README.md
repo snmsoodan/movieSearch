@@ -1,7 +1,7 @@
-<h1><img src="https://film-nerd.herokuapp.com/project/img/film_nerd_logo.jpg" height=50px> Film Nerd</h1>
+<h1>MSeach</h1>
 
 
-<p>MoviewSearch is a Mean Stack Application in that uses OMDB, Facebook API to help users search and discover new movies with similar interests. Includes many features like getting recommendations for movies, other users have liked or movies with the same directors. Another feature is the ability to write a review for a movie and view reviews from different users.</p>
+<p>Movie Search is a Mean Stack Application in that uses OMDB, Facebook API to help users search and discover new movies with similar interests. Includes many features like getting recommendations for movies, other users have liked or movies with the same directors. Another feature is the ability to write a review for a movie and view reviews from different users.</p>
 <ul>
   <li>Check movies shown around you</li>
   <li>Rate and review movies</li>
